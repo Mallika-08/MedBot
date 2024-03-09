@@ -1,0 +1,62 @@
+[
+    {
+        "label": "Jan",
+        "BP" : 89,
+        "Sugar": 100
+    },
+    {
+        "label": "Feb",
+        "BP" : 69,
+        "Sugar": 120
+    },
+    {
+        "label": "March",
+        "BP" : 71,
+        "Sugar": 140
+    },
+    {
+        "label": "Apr",
+        "BP" : 110,
+        "Sugar": 60
+    },
+    {
+        "label": "May",
+        "BP" : 140,
+        "Sugar": 120
+    },
+    {
+        "label": "Jun",
+        "BP" : 89,
+        "Sugar": 100
+    },
+    {
+        "label": "Jul",
+        "BP" : 109,
+        "Sugar": 60
+    },
+    {
+        "label": "Aug",
+        "BP" : 139,
+        "Sugar": 120
+    },
+    {
+        "label": "Sep",
+        "BP" : 89,
+        "Sugar": 60
+    },
+    {
+        "label": "Oct",
+        "BP" : 59,
+        "Sugar": 100
+    },
+    {
+        "label": "Nov",
+        "BP" : 129,
+        "Sugar": 130
+    },
+    {
+        "label": "Dec",
+        "BP" : 89,
+        "Sugar": 50
+    }
+]
