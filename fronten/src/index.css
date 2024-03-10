@@ -2,7 +2,7 @@
 nav{
     position: sticky;
     z-index: 999;
-    width: 50%;
+    width: 55%;
     margin: 20px auto;
     border-radius: 44px;
     height: 72px;
@@ -195,7 +195,7 @@ nav{
   .text button{
     cursor: pointer;
     position: absolute;
-    left: 33%;
+    left: 30%;
     background-color: hsl(216, 77%, 28%);
     border: 2px solid #103c7e;
     color: hsl(0, 15%, 92%);
@@ -414,6 +414,8 @@ nav{
       align-items: center;
     }
     .btm-btn button{
+      position: relative;
+      left: 0%;
       border: none;
       font-weight: 400;
       background-color: #fffacd;
@@ -426,6 +428,10 @@ nav{
     .btm-btn li{
       color: #103c7e;
       font-weight: 600;
+      padding: 40px;
+    }
+    .btm-btn a{
+      font-size: 16px;
     }
     .copyright{
       position: absolute;
@@ -433,13 +439,13 @@ nav{
       left: 47%;
     }
     .copyright h4{
-      color: #9fb7fa;
+      color: #103c7e;
     }
     .sections span{
       color: #9fb7fa;
       font-weight: 600;
     }
-    .sections h4{
+    .sections h5{
       color: #103c7e;
     }
   

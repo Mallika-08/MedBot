@@ -10,6 +10,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import User from './pages/User.jsx';
 import Upload from './pages/Upload.jsx';
 import View from './pages/View.jsx';
+import ChatbotPage from './pages/ChatbotPage.jsx';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/ProvideHelp' element={<ProvideHelp/>} />
         <Route path='/Upload' element={<Upload/>} />
         <Route path='/View' element={<View/>} />
+        <Route path='/ChatbotPage' element={<ChatbotPage/>} />
       </Routes>
     </BrowserRouter>
   );
