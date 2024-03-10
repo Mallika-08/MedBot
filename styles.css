@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    background-color: #fffacd;
+    position: relative;
+}
+#box {
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    padding: 30px;
+    background-color: transparent;
+    border: 3px dashed #333;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.ri-upload-cloud-fill{
+    color: #4fcf50;
+   font-size: 75px;
+}
+p{
+    color: #333;
+}
+#img-view{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+   
+}
+#img-view p{
+    font-size: 20px;
+    
+}
+span{
+    font-size: 12px;
+    color: rgb(180, 185, 190);
+}
+#results{
+    position: absolute;
+    top: 18%;
+    left: 62%;
+    margin-left: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.flexitem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+}
+
+h3 {
+    margin: 5px; 
+    color: #333;
+}
+.title{
+   
+}
+button{
+    position: absolute;
+    top: 65%;
+    
+    padding: 10px;
+    margin: 20px;
+    margin-top: 64px;
+    border-radius: 12px;
+    height: 50px;
+    width: 100px;
+}
+
+ .submit{
+    background-color: #4fcf50;
+    font-size: 16px;
+    left: 42%;
+}
+.clear{
+    background-color: #ff6347;
+}
+h1{
+    font-size: 44px;
+    letter-spacing: 2.5px;
+    margin-bottom: 40px;
+}
+
+
+#placeholder{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 75%;
+    width: 27%;
+    background-color: transparent;
+    border: 3px dashed #333;
+    top: 16%;
+    left: 20%;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster-display img{
+    height: 50%;
+    width: 90%;
+    object-fit:cover;
+    margin: auto;
+    display: block;
+}
+
+.ri-landscape-fill{
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    font-size: 80px;
+}
+
+#link a{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 12px;
+    position: absolute;
+    top: 80%;
+    left: 64%;
+    height: 50px;
+    width: 120px;
+    background-color: #4fcf50;
+}
