@@ -2,9 +2,10 @@
     cursor: pointer;
 }
 .mainSidebarContainer{
-    flex: 0.8;
+    flex: 0.7;
     background-color: #fffacd;
     height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .ulContainer{
     margin-top: 50px;
@@ -13,7 +14,7 @@
 .liContainer{
     display: flex;
     align-items: center;
-    padding: 7px;
+    padding: 5px;
     margin: 7px;
 }
 h4{
@@ -52,4 +53,30 @@ h4{
     padding: 12px;
     border-radius: 0px;
     margin-top: 4px;
+}
+.buttons{
+    margin-top: 30px;
+    margin-left: 30px;
+    
+    
+}
+.upload-btn{
+    height: 40px;
+    width: 128px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color:hwb(216 2% 67% / 0.907) ;
+    font-weight: 700;
+    color: #ebecf6;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.view-btn{
+    height: 40px;
+    width: 128px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: #020a49 solid 2px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

@@ -8,6 +8,8 @@ import GetHelp from './pages/GetHelp.jsx';
 import ProvideHelp from './pages/ProvideHelp.jsx';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import User from './pages/User.jsx';
+import Upload from './pages/Upload.jsx';
+import View from './pages/View.jsx';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path='/User' element={<User/>} />
         <Route path='/GetHelp' element={<GetHelp/>} />
         <Route path='/ProvideHelp' element={<ProvideHelp/>} />
+        <Route path='/Upload' element={<Upload/>} />
+        <Route path='/View' element={<View/>} />
       </Routes>
     </BrowserRouter>
   );

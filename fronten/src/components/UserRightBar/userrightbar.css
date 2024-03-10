@@ -22,12 +22,15 @@
 
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.taskProgress , .currentMonth1{
+    font-size: 12px;
+}
 .taskProgress , .taskCounter, .currentMonth1{
     margin-left: 20px;
-    padding: 7px;
+    padding: 5px;
 }
 .taskCounter{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
 }
 .middleTaskChart{
@@ -46,7 +49,7 @@
     margin-top: 60px;
     font-weight: 600;
     margin-left: 40px;
-    font-size: 28px;
+    font-size: 24px;
 }
 .lineChart{
     margin-top: 10px;
@@ -62,7 +65,7 @@
 .conditions, .time{
     background-color: #fffacd;
     height: 20vh;
-    width: 590px;
+    width: 560px;
     margin-left: 17px;
     margin-top: 20px;
     border-radius: 10px;

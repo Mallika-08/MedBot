@@ -2,8 +2,9 @@ import React from 'react'
 import './sidebar.css';
 import Message from '../components/icons/message.png';
 import Checklist from '../components/icons/order.png';
-
+import { Link } from 'react-router-dom';
 import Settings from '../components/icons/settings.png';
+import Upload from '../pages/Upload.jsx';
 
 function Sidebar(){
     return(
@@ -53,6 +54,16 @@ function Sidebar(){
                         <label htmlFor='Hospital visit'>Hospital visit</label>
                     </div>
                 </div>
+
+                <div className='buttons'>
+                    <div>
+                        <Link to="/Upload"><button className='upload-btn'>Upload Records</button></Link>
+                    </div>
+                    <div>
+                        <Link to="/View"><button className='view-btn'>View Records</button></Link>
+                    </div>
+                </div>
+
             </div>
         </div>
     );
