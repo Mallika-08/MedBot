@@ -195,7 +195,7 @@ nav{
   .text button{
     cursor: pointer;
     position: absolute;
-    left: 30%;
+    left: 33%;
     background-color: hsl(216, 77%, 28%);
     border: 2px solid #103c7e;
     color: hsl(0, 15%, 92%);
