@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="{{url_for('static',filename='assets/CB symbol.png')}}" type="image/icon type">
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://localhost:3000/">
+                <img src="{{url_for('static',filename='assets/chatboting.png')}}" alt="Logo" width="40" height="40" style="filter: invert(100%); "
+                    class="d-inline-block align-text-top">
+                MediBot
+            </a>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <!--Login Header-->
+    <div class="hero">
+        <div class="login-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn text marginleft">Log In</button>
+            </div>
+
+            <!--Social Media Login Buttons-->
+            <div class="social-icons social-icons img">
+                <img src="{{url_for('static',filename='assets/facebook1.png')}}" alt="facebook">
+                <img src="{{url_for('static',filename='assets/google.png')}}" alt="google">
+                <img src="{{url_for('static',filename='assets/instagram.png')}}" alt="instagram">
+                <img src="{{url_for('static',filename='assets/twitter.png')}}" alt="twitter">
+            </div>
+
+            <!--Email Address Input-->
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+
+            <!--Password Input-->
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+
+            <!--Check Box-->
+            <div class="form-check">
+                <input class="form-check-input mt-3" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label mt-2" for="flexCheckChecked">
+                    Remember Me
+                </label>
+            </div>
+
+            <!--Login Button-->
+            <a href="http://localhost:3000/User" type="button" class="btn submit-btn m-4">Login</a>
+            <p>-----------------------------------------</p>
+
+            <!--Register Button-->
+            <a href="/register" class="new-user-btn">If New User</a>
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

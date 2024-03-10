@@ -1,8 +1,14 @@
+import { useEffect } from 'react';
+
 function Upload(){
-    return(
-        <>
-            <h1>Upload Records</h1>
-        </>
-    );
+    const redirectToExternalSite = () => {
+        window.location.href = 'http://localhost:5000/upload';
+    };
+
+    useEffect(() => {
+        redirectToExternalSite();
+    }, []); 
+
+    return null;
 }
 export default Upload;

@@ -1,12 +1,15 @@
-import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 
 function GetHelp(){
-    return(
-        <>
-            <h1>Get help page</h1>
-            <Link to="/User"><button>Click</button></Link>
-        </>
-    );
+    const redirectToExternalSite = () => {
+        window.location.href = 'http://localhost:5000/GetHelp';
+    };
+
+    useEffect(() => {
+        redirectToExternalSite();
+    }, []); 
+
+    return null;
 }
 export default GetHelp;

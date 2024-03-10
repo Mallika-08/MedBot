@@ -1,11 +1,9 @@
 import './ChatbotPage.css';
 function ChatbotPage(){
     return(
-        <div className='ChatbotPage'>
-            
-        </div>
-            
-        
+        <>
+            <h1>Chatbot Page</h1>
+        </>
     );
 }
 export default ChatbotPage;

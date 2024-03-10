@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload file</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+</head>
+<body>
+
+    <div id="main">
+        <div id="dropbox">
+            
+            <form action="/save" method="post" enctype="multipart/form-data">
+            <label for="input-file" id="box">
+                
+                <input type="file" accept="image/*" name="file" id="input-file" hidden>
+                <div id="img-view">
+                    <i class="ri-upload-cloud-fill"></i>
+                    <p>Drag and drop or click here <br> to upload</p>
+                    <span>Upload any images from desktop</span>
+                </div>
+            </label>
+            
+                    <button type="submit" class="submit" value="Upload">Submit</button>
+            </form>
+
+            <a href="http://localhost:3000/User">
+                <button class="clear">Home</button>
+            </a>
+        </div>
+    
+        
+
+    </div>
+    <script src="{{url_for('static',filename='script.js')}}"></script>
+</body>
+</html>

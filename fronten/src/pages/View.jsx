@@ -1,8 +1,14 @@
+import { useEffect } from 'react';
+
 function View(){
-    return(
-        <>
-            <h1>View Records</h1>
-        </>
-    );
+    const redirectToExternalSite = () => {
+        window.location.href = 'http://localhost:5000/show';
+    };
+
+    useEffect(() => {
+        redirectToExternalSite();
+    }, []); 
+
+    return null;
 }
 export default View;

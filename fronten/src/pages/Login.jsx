@@ -1,13 +1,15 @@
-import { Link } from 'react-router-dom';
-import UserRightBar from '../components/UserRightBar/UserRightBar.js';
-import User from './User.jsx';
+import { useEffect } from 'react';
 
 function Login(){
-    return(
-        <>
-            <h1>Login page</h1>
-            <Link to="/User"><button>Click</button></Link>
-        </>
-    );
+    const redirectToExternalSite = () => {
+        window.location.href = 'http://localhost:5000/login';
+    };
+
+    useEffect(() => {
+        redirectToExternalSite();
+    }, []); 
+
+    return null;
+
 }
 export default Login;

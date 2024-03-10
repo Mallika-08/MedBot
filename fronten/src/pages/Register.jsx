@@ -1,12 +1,15 @@
-import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 
 function Register(){
-    return(
-        <>
-            <h1>Register page</h1>
-            <Link to="/User"><button>Click</button></Link>
-        </>
-    );
+    const redirectToExternalSite = () => {
+        window.location.href = 'http://localhost:5000/register';
+    };
+
+    useEffect(() => {
+        redirectToExternalSite();
+    }, []); 
+
+    return null;
 }
 export default Register;
