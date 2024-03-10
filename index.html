@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster Evaluation</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+        <div id="dropbox">
+            <label for="input-file" id="box">
+                <input type="file" accept="image/*" id="input-file" hidden>
+                <div id="img-view">
+                    <i class="ri-upload-cloud-fill"></i>
+                    <p>Drag and drop or click here <br> to upload</p>
+                    <span>Upload any images from desktop</span>
+                </div>
+            </label>
+            <form action="evaluation.html" method="post">
+                    <button type="submit" class="submit">Submit</button>
+            </form>
+
+            <a href="index.html">
+                <button class="clear">Clear</button>
+            </a>
+        </div>
+    
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
