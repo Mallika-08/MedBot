@@ -2,7 +2,7 @@
 nav{
     position: sticky;
     z-index: 999;
-    width: 50%;
+    width: 55%;
     margin: 20px auto;
     border-radius: 44px;
     height: 72px;
@@ -423,6 +423,10 @@ nav{
       font-weight: 400;
       background-color: #fffacd;
     }
+    .btm-btn a{
+      font-size: 16px;
+      padding: 0px;
+    }
     .btm-btn li{
       color: #103c7e;
       font-weight: 600;
@@ -433,7 +437,7 @@ nav{
       left: 47%;
     }
     .copyright h4{
-      color: #9fb7fa;
+      color: #0c266d;
     }
     .sections span{
       color: #9fb7fa;

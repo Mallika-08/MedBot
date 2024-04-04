@@ -24,7 +24,11 @@
 }
 .taskProgress , .taskCounter, .currentMonth1{
     margin-left: 20px;
-    padding: 7px;
+    padding: 4px;
+}
+.taskProgress, .currentMonth1{
+    font-size: 12px;
+    font-weight: 500;
 }
 .taskCounter{
     font-size: 28px;
