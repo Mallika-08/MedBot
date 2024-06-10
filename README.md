@@ -1,5 +1,6 @@
 # MedBot
-✨** Origin** ✨
+
+✨**Origin** ✨
 
 MediBot.AI was conceived from our profound sense of altruism toward the well-being of individuals within our community. Our foremost aim was to establish a platform that serves the needs of individuals reliant on regular medication intake and routine medical check-ups. Recognizing the prevalent propensity to overlook minor details amidst contemporary work demands, we embarked on this endeavour.
 
@@ -18,4 +19,5 @@ We encountered significant challenges in ensuring the accuracy of information an
 Accomplishments We're Proud Of 🎉
 
 🚀 **What's next for MedBot.Ai** 🌈
+
 Our adventure doesn't end here! We have exciting plans to expand our database, enhance the user experience, and incorporate interactive features. By collaborating with local hospitals and doctors, we'll provide authentic recommendations. Stay tuned for more magical updates! ✨🌟🌈
