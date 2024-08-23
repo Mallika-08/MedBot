@@ -1,5 +1,7 @@
 import '../index.css';
 import ChatbotImg from '../components/icons/chatbotimg.png';
+import ChatBot from '../pages/ChatbotPage.jsx';
+import { Link } from 'react-router-dom';
 function Hero(){
     return(
         <>
@@ -20,7 +22,7 @@ function Hero(){
 
                 </div>
                 <div className='chatbot'>
-                    <img src={ChatbotImg}/>
+                    <Link to="/ChatbotPage"><img alt="chatbot" src={ChatbotImg}/></Link>
                 </div>
             </div>
         </>
