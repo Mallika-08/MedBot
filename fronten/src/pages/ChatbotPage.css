@@ -1,3 +1,19 @@
-.chat-text{
-    color: brown;
+.chat-cont{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin: 10px;
+    padding: 7px;
+}
+h2{
+  
+}
+pre{
+    margin: 20px;
+    height: 70%;
+    width: 49%;
 }

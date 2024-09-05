@@ -124,7 +124,7 @@ function UserRightBar(){
                     </div>
                     <div className='time'>
                             <p className='visits'>Hospital Visits</p>
-                            <p className='date'>12 March, 2024</p>
+                            <p className='date'>12 September, 2024</p>
                             <p className='pending'>Appointment is due</p>
                     </div>
                 </div>
